@@ -11,7 +11,7 @@ def fetch_commits(repo, owner):
     """Fetches the last 10 commits of the repository by the owner"""
     url = f"https://api.github.com/repos/{owner}/{repo}/commits"
     params = {'per_page': 10}
-    response = requests.get(url, params=params, auth=HTTPBasicAuth("softtech2005", "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"))
+    response = requests.get(url, params=params, auth=HTTPBasicAuth("softtech2005", ""))
     if response.status_code == 200:
         commits = response.json()
         for commit in commits:
