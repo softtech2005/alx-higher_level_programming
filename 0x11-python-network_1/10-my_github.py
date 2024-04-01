@@ -20,5 +20,5 @@ def get_github_user_id(username, token):
 
 if __name__ == "__main__":
     username = "softtech2005"
-    token = "<your_token_here>"  # Remember to replace <your_token_here> with your actual GitHub Personal Access Token
+      # Remember to replace <your_token_here> with your actual GitHub Personal Access Token
     get_github_user_id(username, token)
