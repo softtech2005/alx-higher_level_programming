@@ -20,5 +20,4 @@ def get_github_user_id(username, token):
 
 if __name__ == "__main__":
     username = "softtech2005"
-    token = "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"
     get_github_user_id(username, token)
